@@ -390,14 +390,12 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 80vh;
-  background: url("../img/hero-bg.jpg") top center;
-  background-size: cover;
   position: relative;
 }
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.4);
+  background: rgb(50 173 104);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -451,6 +449,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 1024px) {
   #hero {
+    height: 700px;
     background-attachment: fixed;
   }
 }
